@@ -1,0 +1,150 @@
+:root {
+    --prime: #00ff34;
+  }
+  
+  * {
+    font-family: "Exo 2", sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    transition: all 0.2s;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    background: #131b2b;
+  }
+  
+  header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 2rem 3rem;
+    z-index: 10;
+    background: #131b2b;
+    margin-bottom: 2rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  nav li {
+    margin: 1rem 1.5rem;
+  }
+  
+  nav a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  nav a:hover {
+    background: var(--prime);
+  }
+  
+  .logo {
+    margin: 0 1.5rem;
+  }
+  
+  .logo a {
+    text-decoration: none;
+  }
+  
+  .logo h1 {
+    font-size: 3rem;
+    color: #fff;
+  }
+  
+  .logo span {
+    color: var(--prime);
+  }
+  
+  .highlights {
+    width: 70%;
+    position: relative;
+    color: #00ff34;
+    display: inline-block;
+    z-index: 11;
+    margin-top: 2rem;
+  }
+  
+  .highlights h3 {
+    display: inline;
+    font-size: 2vw;
+    padding: 20px 20px 5px 20px;
+    font-weight: lighter;
+    text-transform: capitalize;
+    border-left: 6px solid var(--prime);
+  }
+  
+  .card {
+    width: 370px;
+    height: 270px;
+    margin-top: 20px;
+    margin-left: 100px;
+    background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+    border-radius: 20px;
+    transition: all 0.3s;
+  }
+  
+  .card2 {
+    width: 370px;
+    height: 270px;
+    background-color: #1a1a1a;
+    border-radius: 20px;
+    transition: all 0.2s;
+  }
+  
+  .card2:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+  }
+  
+  .card:hover {
+    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.3);
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .text {
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+  }
+  
+  hr {
+    background-color: var(--prime);
+    height: 2px;
+    margin: 12px;
+  }
+  
+  .text2 {
+    color: #fff;
+    text-align: left;
+    font-size: 17px;
+  }
+  
+  .text2 ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  .text2 li {
+    margin: 5px 0;
+  }
