@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="join_now.css" />
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <form>
+      <div class="row">
+        <h4>USER INFO FORM</h4>
+        <div class="input-group input-group-icon">
+          <input type="text" placeholder="Username" />
+        </div>
+        <div class="input-group input-group-icon">
+          <input type="email" placeholder="Email" />
+        </div>
+        <div class="input-group input-group-icon">
+          <input type="number" placeholder="Phone Number" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-half">
+          <h4>Date of Birth</h4>
+          <div class="input-group">
+            <div class="col-third">
+              <input type="text" placeholder="DD" />
+            </div>
+            <div class="col-third">
+              <input type="text" placeholder="MM" />
+            </div>
+            <div class="col-third">
+              <input type="text" placeholder="YYYY" />
+            </div>
+          </div>
+        </div>
+        <div class="col-half">
+          <h4>Gender</h4>
+          <div class="input-group">
+            <input id="gender-male" type="radio" name="gender" value="male" />
+            <label for="gender-male">Male</label>
+            <input
+              id="gender-female"
+              type="radio"
+              name="gender"
+              value="female"
+            />
+            <label for="gender-female">Female</label>
+            <input
+              id="gender-other"
+              type="radio"
+              name="gender"
+              value="other"
+            />
+            <label for="gender-other">Other</label>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <h4>Physical Details</h4>
+        <div class="input-group input-group-icon">
+          <input type="number" placeholder="Height (in cm)" />
+        </div>
+        <div class="col-half">
+          <div class="input-group input-group-icon">
+            <input type="number" placeholder="Weight (in kg)" />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <h4>Interested Areas (Multiple Values)</h4>
+        <div class="input-group">
+          <input type="checkbox" id="interest-calisthenics" name="interest" value="calisthenics" />
+          <label for="interest-calisthenics">Calisthenics</label>
+          <input type="checkbox" id="interest-bodybuilding" name="interest" value="bodybuilding" />
+          <label for="interest-bodybuilding">Bodybuilding</label>
+          <input type="checkbox" id="interest-powerlifting" name="interest" value="powerlifting" />
+          <label for="interest-powerlifting">Powerlifting</label>
+          <input type="checkbox" id="interest-boxing" name="interest" value="boxing" />
+          <label for="interest-boxing">Boxing</label>
+          <input type="checkbox" id="interest-gymnastics" name="interest" value="gymnastics" />
+          <label for="interest-gymnastics">Gymnastics</label>
+        </div>
+      </div>
+      
+      <!-- Submit button -->
+      <div class="row">
+        <button type="submit" class="glowing-button">Submit</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
