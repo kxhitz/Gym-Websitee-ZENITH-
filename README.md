@@ -1,5 +1,6 @@
 # Gym-Websitee-ZENITH-
 This repository contains the source code for a Gym Website named "Zenith." The website is designed to provide information about the gym, its facilities, workout programs, trainers, diet recommendations, and a contact form for user interaction. Below is an overview of the website structure and functionality:
+
 --> Files and Structure
 
     index.html: The main HTML file containing the structure of the website, including sections such as Home, About, Workout, Trainers, Diet, Contact, and a navigation bar.
